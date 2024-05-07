@@ -1,5 +1,5 @@
 # Hotel-Revenue
-There are five seperate worksheets in the excel sheet.three worksheets contain hotel details for year 2018,2019 and 2020 and the other two are about meal costs and discounts for different market segments.My Aim here is Develop a data base to Analyze and Visualize Hotel booking data and overcome with following requirements.
+There are five seperate worksheets in the excel sheet.three worksheets contain hotel details for year 2018,2019 and 2020 and the other two are about meal costs and discounts for different market segments.This data set contains data about two different hotel types called resort hotels and city hotels.My Aim here is Develop a data base to Analyze and Visualize Hotel booking data and overcome with following requirements.
 
 # Requirements
 1.Is the hotel revenue growing by year from 2018 to 2020.
@@ -38,6 +38,13 @@ The following sql query can be used to get a brief idea of the revenue growth.(w
   Total Revenue                   = SUM [(Meal revenue + Revenue of stays) * (1-discount)]
 
 # Insights
+
+As we can see in the above line chart revenue is increasing for both hotel types.
+
+In city hotel there are sudden revenue increases in 30th of september in 2018,2nd of january in 2019 and 30th of september in 2019.
+In resort hotel we can see two sudden changes from 7th july to 2nd octomber in 2018 and from 30th july to 15th september in 2019.
+
+For both hotel types we can see a sudden decrease around september 2020.We can assume that's becauseof covid-19 pandemic.
 
 
 
