@@ -27,6 +27,17 @@ The following sql query can be used to get a brief idea of the revenue growth.(w
 
 ![Screenshot (375)](https://github.com/umangaabeysinghe/Hotel-Revenue/assets/168299630/c854ceea-c689-4201-ab61-060cf37b13c7)
 
+* Use folllowing equation to get insights
+
+  Meal revenue                    = (stays_in_week_nights+Stays_in_weekend_nights)*cost
+  Revenue of stays(without meals) = (stays_in_week_nights+Stays_in_weekend_nights)*adr
+  Revenue(meals+stays)            = (Meal revenue + Revenue of stays) * (1-discount)
+  Total Revenue                   = SUM [(Meal revenue + Revenue of stays) * (1-discount)]
+
+# Insights
+
+
+
 
 
 
